@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body { background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.card {display: flex;
+width: 900px;
+height: 580px;
+}
+
+.left-path {
+    flex: 50px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: white;
+}
+.profile {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 30px;
+}
+.right-path {
+    flex: 50%;
+    border-radius: 0px 10px 10px 0px;
+}
+.content {
+    margin: 25% 20% 0% 25%;
+}
+.content h2 {
+    color: black;
+}
+.content p {
+    color: rgb(171, 171, 171);
+    margin-top: 10px;
+}
+.input-field {
+    width: 230px;
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 5px;
+    background-color: rgb(228, 225, 225);
+    color: rgb(76, 29, 184);
+    font-size: medium;
+    padding: 15px;
+    
+}
+input:focus  {
+    outline: none;
+}
+::placeholder {
+    color: rgb(171, 171, 171);
+    font-size: smaller;
+}
+.parent button {
+    text-align: center;
+    margin-top: 40px;
+}
+.label {
+    font-size: small;
+    color: rgb(167, 167, 167);
+}
+button {
+    background-color: rgb(76, 29, 184);
+    border: none;
+    border-radius: 7px;
+    padding: 7px 10px ;
+    width: 250px;
+    color: white;
+}
+button:hover {
+    background-color: blue;
+}
+.parent-button p {
+font-size: small;
+color: rgb(171, 171, 171);
+}
+
+.social div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 8px 20px;
+}
+.social div:hover {
+    border: 2px solid black;
+}
+.social img {
+    width: 35px;
+}
+.continue {
+color: gray;
+}
+.parent-button a {
+    font-size: small;
+color: rgb(171, 171, 171);
+}
